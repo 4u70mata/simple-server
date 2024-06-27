@@ -1,11 +1,17 @@
 {
-  "name": "simpleserver",
-  "version": "1.0.0",
-  "description": "Very simple server",
-  "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Brad Traversy",
-  "license": "ISC"
-}
+    "name": "simpleserver",
+    "version": "1.0.0",
+    "description": "Basic server",
+    "main": "server.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "node server.js"
+    },
+    "author": "Sami Aridal",
+    "license": "ISC",
+    "keywords": [],
+    "dependencies": {
+      "express": "^4.19.2"
+    }
+  }
+  
